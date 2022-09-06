@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Add Product Form</title></head>
+	<body>
+		<form name="frmLatihan" method="GET" action="#">
+			<table border="0" align="center" cellpadding="15" width="30%">
+				<thead>
+					<tr bgcolor="grey">
+						<th colspan="2">Form Register Product</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr bgcolor="grey">
+						<th colspan="2">
+							<input type="submit" name="proses" value="Kirim" />&nbsp;&nbsp;
+							<input type="reset" name="unproses" value="Batal" />
+						</th>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<td ><label>Nama Product</label></td>
+						<td>
+							<input type="text" name="nama" value="" placeholder="Nama Lengkap" size="35" maxlength="100"/>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Jenis Product</label></td>
+						<td>
+							<select name="jenis_product">
+								<option value="">-- Kategori Product --</option>
+								<option value="Elektronik">Elektronik</option>
+								<option value="art">art</option>
+								<option value="gaming">Gaming</option>
+								<option value="sport">Sport</option>
+								<option value="office">Office</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Harga</label></td>
+						<td>
+							<input type="text" name="harga" value="" size="35" maxlength="100"/>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Stok</label></td>
+						<td>
+							<input type="text" name="stok" value="" size="35" maxlength="100"/>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Foto</label></td>
+						<td>
+							<input type="text" name="foto" value="" size="35" maxlength="100"/>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>

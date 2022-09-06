@@ -1,0 +1,47 @@
+body {
+    background-color: #005d82;
+}
+
+.title {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.about {
+    font-size: "4";
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.header {
+    background-color: whitesmoke;
+}
+
+.header .about font {
+    color: black;
+}
+
+.list {
+    background-color: whitesmoke;
+}
+
+.list font {
+    font-size: 4;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+    font-size: 4;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+}
+
+.footer .copyright {
+    text-align: center;
+}
